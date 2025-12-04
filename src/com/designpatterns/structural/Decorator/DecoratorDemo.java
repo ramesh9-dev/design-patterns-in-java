@@ -1,0 +1,15 @@
+package com.designpatterns.structural.Decorator;
+
+public class DecoratorDemo {
+    public static void main(String[] args) {
+
+        Coffee coffee = new BasicCoffee();
+        System.out.println(coffee.getDescription() + " : " + coffee.getCost());
+
+        coffee = new MilkDecorator(coffee);
+        System.out.println(coffee.getDescription() + " : " + coffee.getCost());
+
+        coffee = new ChocolateDecorator(coffee);
+        System.out.println(coffee.getDescription() + " : " + coffee.getCost());
+    }
+}

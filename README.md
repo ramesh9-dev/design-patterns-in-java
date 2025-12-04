@@ -8,6 +8,14 @@ Each pattern includes a **code example**, and a **detailed explanation** of how 
 ## 🧩 Categories
 
 ### 1️⃣ Creational Patterns
+
+Creational patterns deal with how objects are created.
+They provide flexible and reusable ways to create objects while hiding the creation logic.
+#### Purpose
+- To make the system independent of how objects are created.
+- To reduce tight coupling.
+- To improve flexibility for creating complex or related objects
+#### Types
 - Singleton
 - Factory Method
 - Abstract Factory
@@ -15,6 +23,13 @@ Each pattern includes a **code example**, and a **detailed explanation** of how 
 - Prototype
 
 ### 2️⃣ Structural Patterns
+
+Structural patterns focus on how classes and objects are combined together to form larger structures.
+#### Purpose
+- To simplify relationships between objects.
+- To increase efficiency.
+- To create flexible and scalable object structures.
+#### Types
 - Adapter
 - Bridge
 - Composite
@@ -24,6 +39,14 @@ Each pattern includes a **code example**, and a **detailed explanation** of how 
 - Proxy
 
 ### 3️⃣ Behavioral Patterns
+
+Behavioral patterns deal with how objects interact and communicate with each other.
+
+#### Purpose
+- To define clear communication patterns.
+- To improve flexibility in assigning responsibilities.
+- To reduce hard-coded workflows between classes
+#### Types
 - Chain of Responsibility
 - Command
 - Interpreter
